@@ -1,0 +1,115 @@
+#ind{
+    width: 100vw;
+    height: 100vh;
+   border: 2px solid rgb(148, 8, 8);
+    display: grid;
+    
+    grid-template-areas: 
+    'hader hader hader hader hader hader hader'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'sidebar main main main main main main'
+    'footer footer footer footer footer footer footer';
+}
+#hader{ 
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgba(234, 129, 129, 0.792);
+    font-size: larger;
+ grid-area: hader;
+ background-color: rgba(8, 121, 214, 0.705);
+}
+#gg{
+    width: 5vw;
+    height: 5vh;
+}
+#ll{
+    width: 5vw;
+    height: 5vh;
+}
+#ff{
+    width: 5vw;
+    height: 5vh;
+}
+#sidebar{
+    border: 2px solid rgba(202, 121, 121, 0.573);
+    grid-area: sidebar;
+    display: flex;
+    background-color: rgba(33, 87, 248, 0.516);
+    justify-content: space-between;
+   }
+   .sid{
+font-size: x-large;
+   }
+   #main{
+    border: 2px solid rgba(216, 113, 113, 0.662);
+    grid-area: main;
+    background-color: rgba(53, 94, 242, 0.559);
+    float: left;
+    overflow: scroll;
+   }
+   #pp{
+       text-align: right;
+   }
+   .nna{text-align: center;}
+   .nata{
+       display: flex;
+       justify-content:space-between;
+       width: 25vw;
+       height: 25vh;
+       font-size: x-large;
+       
+   }
+
+
+   #natan{
+border-radius: 80%;
+width: 25vw;
+height: 25vh;
+
+float:right;
+animation-name: natan;
+animation-duration: 6s;
+transition: all 5s;
+   }
+   #natan:hover{
+ box-shadow: 90%;
+width: 27vw;
+height: 27vh;
+box-shadow:15px 15px 15px rgba(13, 15, 15, 0.61);
+
+   }
+   .ima{
+flex-direction: column;
+justify-content: space-between;
+   }
+   
+   .nat1{
+       
+       width: 25vw;
+       height: 25vh;
+       
+   }
+   #footer{
+    border: 2px solid rgba(228, 126, 126, 0.658);
+    grid-area: footer;
+    background-color: rgba(99, 216, 246, 0.667);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+   }
+   .hade{
+       justify-content: center;
+   }
+   #logo{
+       text-align: right;
+       flex-grow: 4;
+   }
+
+   
